@@ -21,7 +21,7 @@ function register() {
         return alert("비밀번호를 입력해주세요.");
     }
 
-    if (password !== confirmPassword) {
+    if (password.value !== confirmPassword.value) {
         return alert("비밀번호가 일치하지 않습니다.");
     }
 
